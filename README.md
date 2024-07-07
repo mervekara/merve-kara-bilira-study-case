@@ -7,19 +7,19 @@ This project is a Crypto Asset Dashboard built with React, TypeScript, Tailwind 
 ## Features
 
 - **API Integration**: Fetches asset data from the CoinGecko API.
-- **Live Data Updates**: Utilizes `react-query` for live data fetching and state management.
+- **Live Data Updates**: Utilizes `react-query` for live data fetching.
 - **Price Change Highlighting**: Highlights price changes with flashing colors (green for increase, red for decrease, gray for no change).
 - **Sparkline Charts**: Displays 24h sparkline charts with color indications (green for increase, red for decrease, gray for no change).
 - **Pagination**: Implements pagination to navigate through the asset data.
 
 ## Technologies Used
 
-- **React**: JavaScript library for building user interfaces.
-- **TypeScript**: Superset of JavaScript for type-safe development.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
-- **Chart.js**: JavaScript library for creating charts.
-- **React Query**: Data-fetching library for React.
-- **CoinGecko API**: Cryptocurrency data API.
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Chart.js**
+- **React Query**
+- **CoinGecko API**
 
 ## Getting Started
 
@@ -61,13 +61,13 @@ https://merve-kara-bilira-study-case.vercel.app/
 
 Displays the table of cryptocurrency assets with pagination.
 
-### `AssetRow`
+### ``
 
 Displays an individual asset's information, including the name, price, market value, 24h change, and sparkline chart. Highlights price changes and updates dynamically.
 
 ### `ChartComponent`
 
-Displays the 24h sparkline chart for each asset.
+Displays the 24h sparkline chart for each asset in AssetRow.
 
 ### `Pagination`
 
@@ -108,11 +108,3 @@ Fetches asset data from the CoinGecko API.
 ### 429 Too Many Requests Error
 
 When too many requests are sent to the CoinGecko API in a short period, a `429 Too Many Requests` error may occur. This error is handled by displaying an error message. In such cases, refreshing the page may be necessary. This is a known issue originating from CoinGecko's rate limiting.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
