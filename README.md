@@ -61,7 +61,7 @@ https://merve-kara-bilira-study-case.vercel.app/
 
 Displays the table of cryptocurrency assets with pagination.
 
-### ``
+### `AssetRow`
 
 Displays an individual asset's information, including the name, price, market value, 24h change, and sparkline chart. Highlights price changes and updates dynamically.
 
