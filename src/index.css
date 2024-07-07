@@ -1,0 +1,24 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .highlight-up {
+    animation: flash-green 5s;
+  }
+  .highlight-down {
+    animation: flash-red 5s;
+  }
+
+  @keyframes flash-green {
+    0% { background-color: rgba(16, 185, 129, 0.5); }
+    100% { background-color: transparent; }
+  }
+
+  @keyframes flash-red {
+    0% { background-color: rgba(239, 68, 68, 0.5); }
+    100% { background-color: transparent; }
+  }
+}
+
