@@ -103,6 +103,12 @@ Flashes price changes by setting a highlight class for one second when the price
 
 Fetches asset data from the CoinGecko API.
 
+## Known Issues
+
+### 429 Too Many Requests Error
+
+When too many requests are sent to the CoinGecko API in a short period, a `429 Too Many Requests` error may occur. This error is handled by displaying an error message. In such cases, refreshing the page may be necessary. This is a known issue originating from CoinGecko's rate limiting.
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
