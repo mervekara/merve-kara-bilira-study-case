@@ -67,7 +67,7 @@ Displays an individual asset's information, including the name, price, market va
 
 ### `ChartComponent`
 
-Displays the 24h sparkline chart for each asset in AssetRow.
+Displays the 24h sparkline chart for each asset in the asset row.
 
 ### `Pagination`
 
