@@ -23,16 +23,12 @@ This project is a Crypto Asset Dashboard built with React, TypeScript, Tailwind 
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js (v14.x or later)
-- npm
-
 ### Installation
 
 1. Clone the repository:
    ```sh
-
+    https://github.com/mervekara/merve-kara-bilira-study-case.git
+    cd merve-kara-bilira-study-case
    ```
 
 2. Install dependencies:
