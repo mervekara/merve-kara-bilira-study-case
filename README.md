@@ -52,6 +52,9 @@ This project is a Crypto Asset Dashboard built with React, TypeScript, Tailwind 
 
 2. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+### Live Link
+https://merve-kara-bilira-study-case.vercel.app/
+
 ## Components
 
 ### `AssetTable`
@@ -107,10 +110,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- CoinGecko for providing the cryptocurrency data API.
-- Chart.js for the charting library.
-- Tailwind CSS for the styling framework.
-- React Query for the data-fetching library.
